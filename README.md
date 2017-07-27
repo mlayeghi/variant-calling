@@ -1,4 +1,4 @@
-## **A quick & dirty code to call variants in bacterial genomes**
+# **A quick & dirty code to call variants in bacterial genomes**
 
 You have one or multiple newly sequenced bacterial draft genomes, sampled or cultured under different conditions, and want to call the SNPs against a reference genome to find phenotype-associated variants?
 Well, here it is a quick & dirty way to do so!
