@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 : '
  You will need:
 1. bwa
@@ -47,9 +46,9 @@ do
 	# Output of aligning reads to reference genome
 	aln1="temp/ngs${i}_aln.sam"
 
-	# Output of variant calling results in bcf & vcf formats
-	var1="Results4/ngs${i}_variants.bcf"
-	var2="Results4/ngs${i}_variants.vcf"
+	# Output of variant calling results in bcf & vcf formats saved in Results folder
+	var1="Results/ngs${i}_variants.bcf"
+	var2="Results/ngs${i}_variants.vcf"
 
 	echo "$in1 ..."
 
